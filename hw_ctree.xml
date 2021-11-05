@@ -1,0 +1,64 @@
+<InternetGatewayDevice DBEncrypt="1">
+	<LANDevice NumberOfInstances="1">
+		<LANDeviceInstance InstanceID="1" X_HW_WlanEnable="1" X_HW_WlanPowerValue="0">
+			<WLANConfiguration NumberOfInstances="1">
+				<WLANConfigurationInstance InstanceID="1" Name="ath0" Enable="1" RegulatoryDomain="BR" Standard="11ng" X_HW_Standard="11bgn" TransmitPower="100" Channel="0" AutoChannelEnable="1" X_HW_HT20="0" SSID="QUICK/+FIBRA-2.4G" SSIDAdvertisementEnabled="1" MaxBitRate="auto" WMMEnable="1" BeaconType="Basic" BasicEncryptionModes="None" BasicAuthenticationMode="None" WPAEncryptionModes="TKIPEncryption" WPAAuthenticationMode="PSKAuthentication" IEEE11iEncryptionModes="AESEncryption" IEEE11iAuthenticationMode="PSKAuthentication" X_HW_WPAand11iEncryptionModes="TKIPandAESEncryption" X_HW_WPAand11iAuthenticationMode="PSKAuthentication" WEPKeyIndex="1" WEPEncryptionLevel="104-bit" X_HW_RadiuServer="192.168.0.100" X_HW_RadiusPort="1812" X_HW_RadiusKey="" X_HW_GroupRekey="3600" X_HW_AssociateNum="32" X_HW_Powerlevel="5" X_HW_PowerValue="39" X_HW_WPSKeyWord="128" TotalBytesSent="0" TotalBytesReceived="0" TotalPacketsSent="0" TotalPacketsReceived="0" BSSID="" TransmitPowerSupported="20,40,60,80,100" WMMSupported="1" LowerLayers="InternetGatewayDevice.LANDevice.1.WiFi.Radio.1" X_HW_WAPIEncryptionModes="SMS4" X_HW_WAPIAuthenticationMode="WAPIPSK" X_HW_WAPIServer="192.168.100.200" X_HW_WAPIPort="3810" X_HW_APModuleEnable="1" X_HW_ServiceEnable="1" X_HW_RetryTimeout="20" X_HW_Mode="0" X_HW_VLAN="" MACAddressControlEnabled="0" KeyPassphrase="" BasicDataTransmitRates="1,2,5.5,6,11,12,18,24,36,48,54" OperationalDataTransmitRates="1,2,5.5,11,6,9" InsecureOOBAccessEnabled="0" BeaconAdvertisementEnabled="0" RadioEnabled="1" AutoRateFallBackEnabled="1" LocationDescription="" DeviceOperationMode="InfrastructureAccessPoint" DistanceFromRoot="0" PeerBSSID="" AuthenticationServiceMode="None" UAPSDEnable="0" TotalAssociations="0" Status="" PossibleChannels="" PossibleDataTransmitRates="1,2,5.5,11,6,9" TotalPSKFailures="0" TotalIntegrityFailures="0" UAPSDSupported="1" ChannelsInUse="6" X_HW_RFBand="2.4GHz" X_HW_Channel="6" X_HW_GuardInterval="Auto" X_HW_WebVisibility="1" X_HW_Band="2.4GHz" X_HW_AutoRateFallBackEnabled="1" X_HW_Dual_bandsupport="1" X_HW_LoopStatus="0" X_HW_WorkMode="0" X_HW_MCS="-1" X_IEEE80211wEnabled="0" X_TxBFEnabled="1" X_OCCACEnables="1" AccessEquipmentMac="" X_HW_RetryLevel="3" X_HW_RSSIThresholdEnable="1" X_HW_RSSIThreshold="-88" X_HW_EtherTypeFilter="" Reset="0" ModesSupported="" ModeEnabled="" SecondaryRadiusServerIPAddr="192.168.0.100" SecondaryRadiusServerPort="1812" SecondaryRadiusSecret="" SSIDAlias="cpe-ssid" LastChange="0" SSIDStatus="Up" AccessPointStatus="Enabled" AccessPointAlias="cpe-ssid" SSIDReference="" IsolationEnable="0" X_HW_WPSConfigurated="2" SSIDLowerLayers="Device.WiFi.Radio.1" SSID_Backup="WirelessNet" X_HW_SupportedStandards="b,g,n" ChannelPlus="0" X_HW_AutoChannelScope="" X_SCSEnables="1" X_HW_AutoChannelPeriodically="1" X_HW_DisableMCS="0" X_HW_AcsLevel="5" X_HW_OriginalSSID="WirelessNet" X_HW_OriginalPassword="" X_HW_OriginalSecurityProfile="" X_HW_JointSSIDIndex="0" X_HW_WifiWorkingMode="0">
+				</WLANConfigurationInstance>
+			</WLANConfiguration>
+			<LANHostConfigManagement DHCPServerConfigurable="1" DHCPServerEnable="1" DHCPRelay="0" DHCPLeaseTime="86400" PasstThroughLease="" PassthroughLease="600" MinAddress="192.168.100.2" MaxAddress="192.168.100.254" SubnetMask="255.255.255.0" DNSServers="" DomainName="" IPRouters="" ReservedAddresses="" UseAllocatedWan="" AssociatedConnection="" PassthroughMACAddress="" AllowedMACAddresses="" X_HW_DHCPL2RelayEnable="1" X_HW_HGWStart="" X_HW_HGWEnd="" X_HW_STBStart="" X_HW_STBEnd="" X_HW_CameraStart="" X_HW_CameraEnd="" X_HW_ComputerStart="" X_HW_ComputerEnd="" X_HW_PhoneStart="" X_HW_PhoneEnd="" X_HW_DHCPOption82Enable="0" X_HW_PPPoEPITPEnable="0">
+				<IPInterface NumberOfInstances="2">
+					<IPInterfaceInstance InstanceID="1" Enable="1" IPInterfaceIPAddress="192.168.100.1" IPInterfaceSubnetMask="255.255.255.0" IPInterfaceAddressingType="Static" X_HW_AddressConflictDetectionEnable="1" X_HW_RouteProtocolRx="Off" X_HW_RouteProtocolRxMode="Passive" X_HW_RouteProtocolAuthMode="Off" X_HW_RouteProtocolAuthKey="" />
+				</IPInterface>
+			</LANHostConfigManagement>
+			<LANEthernetInterfaceConfig NumberOfInstances="4">
+				<LANEthernetInterfaceConfigInstance InstanceID="1" Enable="1" Status="" Name="eth0:1" MACAddress="" MACAddressControlEnabled="0" MaxBitRate="Auto" DuplexMode="Auto" X_HW_L3Enable="1" Alias="cpe-1" X_HW_Mode="0" X_HW_VLAN="" X_HW_MultiCastVlanAct="0" X_HW_MultiCastVlan="1">
+					<Stats BytesSent="" BytesReceived="" PacketsSent="" PacketsReceived="" ErrorsSent="" ErrorsReceived="" UnicastPacketsSent="" UnicastPacketsReceived="" DiscardPacketsSent="" DiscardPacketsReceived="" MulticastPacketsSent="" MulticastPacketsReceived="" BroadcastPacketsSent="" BroadcastPacketsReceived="" UnknownProtoPacketsReceived="" />
+				</LANEthernetInterfaceConfigInstance>
+				<LANEthernetInterfaceConfigInstance InstanceID="2" Enable="1" Status="" Name="eth0:2" MACAddress="" MACAddressControlEnabled="0" MaxBitRate="Auto" DuplexMode="Auto" X_HW_L3Enable="1" Alias="cpe-2" X_HW_Mode="0" X_HW_VLAN="" X_HW_MultiCastVlanAct="0" X_HW_MultiCastVlan="1">
+					<Stats BytesSent="" BytesReceived="" PacketsSent="" PacketsReceived="" ErrorsSent="" ErrorsReceived="" UnicastPacketsSent="" UnicastPacketsReceived="" DiscardPacketsSent="" DiscardPacketsReceived="" MulticastPacketsSent="" MulticastPacketsReceived="" BroadcastPacketsSent="" BroadcastPacketsReceived="" UnknownProtoPacketsReceived="" />
+				</LANEthernetInterfaceConfigInstance>
+				<LANEthernetInterfaceConfigInstance InstanceID="3" Enable="1" Status="" Name="eth0:3" MACAddress="" MACAddressControlEnabled="0" MaxBitRate="Auto" DuplexMode="Auto" X_HW_L3Enable="1" Alias="cpe-3" X_HW_Mode="0" X_HW_VLAN="" X_HW_MultiCastVlanAct="0" X_HW_MultiCastVlan="1">
+					<Stats BytesSent="" BytesReceived="" PacketsSent="" PacketsReceived="" ErrorsSent="" ErrorsReceived="" UnicastPacketsSent="" UnicastPacketsReceived="" DiscardPacketsSent="" DiscardPacketsReceived="" MulticastPacketsSent="" MulticastPacketsReceived="" BroadcastPacketsSent="" BroadcastPacketsReceived="" UnknownProtoPacketsReceived="" />
+				</LANEthernetInterfaceConfigInstance>
+				<LANEthernetInterfaceConfigInstance InstanceID="4" Enable="1" Status="" Name="eth0:4" MACAddress="" MACAddressControlEnabled="0" MaxBitRate="Auto" DuplexMode="Auto" X_HW_L3Enable="1" Alias="cpe-4" X_HW_Mode="0" X_HW_VLAN="" X_HW_MultiCastVlanAct="0" X_HW_MultiCastVlan="1">
+					<Stats BytesSent="" BytesReceived="" PacketsSent="" PacketsReceived="" ErrorsSent="" ErrorsReceived="" UnicastPacketsSent="" UnicastPacketsReceived="" DiscardPacketsSent="" DiscardPacketsReceived="" MulticastPacketsSent="" MulticastPacketsReceived="" BroadcastPacketsSent="" BroadcastPacketsReceived="" UnknownProtoPacketsReceived="" />
+				</LANEthernetInterfaceConfigInstance>
+			</LANEthernetInterfaceConfig>
+			<X_HW_LANHostManager LANHostMaxNumber="32" ControlListMaxNumber="16" LANHostNumber="0" ControlListNumber="0" />
+			<WiFi RadioNumberOfEntries="1" X_HW_PairTrigger="None">
+				<Radio NumberOfInstances="2">
+					<RadioInstance InstanceID="1" SupportedFrequencyBands="2.4GHz" OperatingFrequencyBand="2.4GHz" GuardInterval="400nsec" X_HW_TxChainMask="0" X_HW_RxChainMask="0" Enable="1" Status="Up" Alias="cpe-2.4G" Name="cpe-2.4G" LastChange="0" MaxBitRate="0" AutoChannelSupported="1" X_HW_RatePriority="0" X_HW_SameSSIDStatus="0" />
+					<RadioInstance InstanceID="2" SupportedFrequencyBands="5GHz" OperatingFrequencyBand="5GHz" GuardInterval="400nsec" X_HW_TxChainMask="0" X_HW_RxChainMask="0" Enable="1" Status="Up" Alias="cpe-5G" Name="cpe-5G" LastChange="0" MaxBitRate="0" AutoChannelSupported="1" X_HW_RatePriority="0" X_HW_SameSSIDStatus="0" />
+				</Radio>
+			</WiFi>
+		</LANDeviceInstance>
+	</LANDevice>
+	<WANDevice NumberOfInstances="1">
+		<WANDeviceInstance InstanceID="1" WANConnectionNumberOfEntries="1">
+			<WANConnectionDevice NumberOfInstances="1">
+				<WANConnectionDeviceInstance InstanceID="1" WANIPConnectionNumberOfEntries="0" WANPPPConnectionNumberOfEntries="1" X_HW_CU_VLANEnabled="0" X_HW_CU_VLAN="0" X_HW_CU_802_1p="0">
+					<WANPPPConnection NumberOfInstances="1">
+						<WANPPPConnectionInstance InstanceID="1" Enable="1" Reset="0" PossibleConnectionTypes="IP_Routed,PPPoE_Bridged" ConnectionType="IP_Routed" PPPoESessionID="1" Name="" AutoDisconnectTime="" IdleDisconnectTime="180" WarnDisconnectDelay="0" RSIPAvailable="0" NATEnabled="1" Username="cgr_teste" Password="q2w9949" PPPEncryptionProtocol="None" PPPCompressionProtocol="None" PPPAuthenticationProtocol="PAP" RemoteIPAddress="" MaxMRUSize="1492" DNSEnabled="1" DNSOverrideAllowed="0" DNSServers="" MACAddressOverride="0" TransportType="PPPoE" PPPoEACName="" PPPoEServiceName="" ConnectionTrigger="AlwaysOn" RouteProtocolRx="Off" PPPLCPEcho="30" PPPLCPEchoRetry="6" ShapingRate="-1" ShapingBurstSize="0" PortMappingNumberOfEntries="0" PortTriggerNumberOfEntries="" X_HW_SERVICELIST="INTERNET" X_HW_VLAN="100" X_HW_PRI="0" X_HW_MultiCastVLAN="4294967295" X_HW_ConnectionControl="0xFFFFFFFF" X_HW_IPMode="0" X_HW_IPv4Enable="1" X_HW_IPv6Enable="0" X_HW_IPv6MultiCastVLAN="-1" X_HW_E8C_LanInterface="" X_HW_TR069FLAG="0" X_HW_PriPolicy="Specified" X_HW_DefaultPri="0" X_HW_MacId="1" X_HW_WanId="0" X_HW_LanDhcpEnable="1" X_HW_E8C_DsliteEnable="0" X_HW_E8C_DsliteMode="0" X_HW_E8C_DsliteAftr="" X_HW_LcpEchoReqCheck="0" X_HW_ExServiceList="" X_HW_NatType="0" X_HW_IPForwardList="" X_HW_E8C_IPv6IPAddress="" X_HW_E8C_IPv6IPAddressAlias="" X_HW_E8C_IPv6IPAddressOrigin="AutoConfigured" X_HW_E8C_IPv6DNSServers="" X_HW_E8C_DefaultIPv6Gateway="" X_HW_E8C_IPv6PrefixAlias="" X_HW_E8C_IPv6PrefixOrigin="PrefixDelegation" X_HW_E8C_IPv6Prefix="" X_HW_E8C_IPv6PrefixPltime="0" X_HW_E8C_IPv6PrefixVltime="0" X_HW_E8C_IPv6DomainName="" X_HW_E8C_IPv6PrefixDelegationEnabled="0" X_HW_Dnsv4ProxyForV6="0" X_HW_UpPortId="0" X_HW_IdleDetectMode="DetectBidirectionally" X_HW_Tr069Invisible="0" X_HW_CU_IPForwardModeEnabled="0" X_HW_CU_IGMPProxyEnable="0" X_HW_BindPhyPortInfo="" X_HW_IPv6_PortForwardNumberOfEntries="0" X_HW_RemoteWanInfo="" X_HW_IPv6PppUp="0" X_HW_DHCPv6ForAddress="0" X_HW_IGMPEnable="0" X_HW_RouteProtocolRxMode="Passive" X_HW_RouteProtocolAuthMode="Off" X_HW_RouteProtocolAuthKey="" X_HW_UnnumberedModel="0" X_HW_TDE_IPv6AddressPrefixLength="64" X_HW_TDE_IPv6AddressingType="SLAAC" X_HW_Flag="0" X_HW_LowerLayers="" X_HW_VLANMode="2" X_HW_DscpToPbitTbl="" X_HW_UpstreamWAN="0">
+						</WANPPPConnectionInstance>
+					</WANPPPConnection>
+				</WANConnectionDeviceInstance>
+			</WANConnectionDevice>
+		</WANDeviceInstance>
+	</WANDevice>
+	<X_HW_Security MacFilterPolicy="0" MacFilterRight="0" IpFilterInPolicy="0" IpFilterInRight="0" IpFilterOutPolicy="0" IpFilterOutRight="0" X_HW_FirewallGeneralLevel="4" UrlFilterPolicy="0" UrlFilterRight="0" UrlFilterIpConcern="0" MacFilterNumberOfEntries="0" IpFilterInNumberOfEntries="0" IpFilterOutNumberOfEntries="0" X_HW_FirewallLevel="Custom" WlanMacFilterPolicy="0" WlanMacFilterRight="0" WlanMacFilterNumberOfEntries="0">
+		<AclServices HTTPLanEnable="1" HTTPWanEnable="1" FTPLanEnable="0" FTPWanEnable="0" TELNETLanEnable="1" TELNETWanEnable="1" SSHLanEnable="0" SSHWanEnable="0" HTTPPORT="80" FTPPORT="21" TELNETPORT="23" SSHPORT="22" HTTPWifiEnable="0" TELNETWifiEnable="0" WebPermanentCloseControl="0" SamBaLanEnable="1" SamBaWanEnable="0" WebAccessControl="1" TrustHost="" />
+	</X_HW_Security>
+	<UserInterface>
+      <X_HW_CLIUserInfo NumberOfInstances="2">
+         <X_HW_CLIUserInfoInstance InstanceID="1" Username="tecnico" Userpassword="tecnico" UserGroup="" ModifyPWDFlag="0" EncryptMode="3" />
+         <X_HW_CLIUserInfoInstance InstanceID="2" Username="suporte" Userpassword="quicknet" UserGroup="" ModifyPWDFlag="0" EncryptMode="3" />
+      </X_HW_CLIUserInfo>
+      <X_HW_CLITelnetAccess Access="1" TelnetPort="23" />
+      <X_HW_WebUserInfo NumberOfInstances="2">
+         <X_HW_WebUserInfoInstance InstanceID="1" UserName="tecnico" Password="tecnico" UserLevel="1" Enable="1" ModifyPasswordFlag="0" PassMode="2" />
+         <X_HW_WebUserInfoInstance InstanceID="2" UserName="suporte" Password="quicknet" UserLevel="0" Enable="1" ModifyPasswordFlag="0" PassMode="2" />
+      </X_HW_WebUserInfo>
+   </UserInterface>
+	<X_HW_MainUPnP Enable="1" />
+	<X_HW_SlvUPnP Enable="1" />
+</InternetGatewayDevice>
