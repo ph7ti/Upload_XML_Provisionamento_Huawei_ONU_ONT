@@ -1,0 +1,35 @@
+##SAÍDA DOS COMANDOS
+OLT_XYZ(config)#quit
+
+OLT_XYZ#diagnose  
+
+OLT_XYZ(diagnose)%%undo ont-load select 0/3 15 0
+
+OLT_XYZ(diagnose)%%    
+
+OLT_XYZ(diagnose)%%
+
+OLT_XYZ(diagnose)%%
+
+OLT_XYZ(diagnose)%%ont-load  stop 
+
+OLT_XYZ(diagnose)%%ont-load info configuration hw_ctree.xml.gz ftp IP_DO_FTP_SERVER USUÁRIO_DO_FTP_SERVER SENHA_DO_FTP_SERVER
+
+OLT_XYZ(diagnose)%%ont-load select 0/3 15 0
+
+OLT_XYZ(diagnose)%%ont-load start activemode immediate 
+
+OLT_XYZ(diagnose)%%display ont-load result 0/3 15 0
+ -------------------------------------------------------------------------------
+   Program                  : Initial state
+   Configuration            : The ONT has reported the CRC
+   Configuration error info : -
+ -------------------------------------------------------------------------------
+
+OLT_XYZ(diagnose)%%display ont-load select 0/3 15 0
+
+ --------------------------------------------------------------
+   F/S/P          ONT ID         Load state      Load progress 
+ --------------------------------------------------------------
+   0/3/15              5            Success               100%
+ --------------------------------------------------------------
