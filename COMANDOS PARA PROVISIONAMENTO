@@ -1,0 +1,18 @@
+## COMANDOS PARA O PROVISIONAMENTO
+quit
+
+diagnose  
+
+undo ont-load select 0/3 15 0
+
+ont-load  stop 
+
+ont-load info configuration hw_ctree.xml.gz ftp IP_DO_FTP_SERVER USUÁRIO_DO_FTP_SERVER SENHA_DO_FTP_SERVER
+
+ont-load select 0/3 15 0
+
+ont-load start activemode immediate 
+
+display ont-load result 0/3 15 0
+
+display ont-load select 0/3 15 0
